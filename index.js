@@ -3,4 +3,4 @@ function cart(){
     def = def+1;
     document.getElementById("sup1").innerHTML = def;
 }
-document.querySelector(".but").addEventListener("click", cart);
+document.getElementById("but").addEventListener("click", cart);
